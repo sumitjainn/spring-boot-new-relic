@@ -5,16 +5,16 @@ Sample Spring Boot MVC application with New Relic monitoring
 
 ## New Relic configuration
 
-Download `newrelic-java.zip` and `newrelic.yml` from New Relic website, extract `newrelic-java.zip` to `./newrelic`.
-Replace `./newrelic/newrelic.yml` with the one downloaded from New Relic.
+1. Download `newrelic-java.zip` and `newrelic.yml` from [New Relic](https://one.newrelic.com/)
+2. Extract `newrelic-java.zip` to `./newrelic`.
+3. Replace `./newrelic/newrelic.yml` with the one downloaded from New Relic.
 
 
-## Build and execution
 
-### Build
+## Build
 
 `mvn clean install`
 
-### execution
+## Execution
 
 `java -javaagent:newrelic/newrelic.jar -jar target/demo-0.0.1-SNAPSHOT.jar`
